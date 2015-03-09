@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string-array name="listOptions">
+        <item>Metric</item>
+        <item>Imperial</item>
+        <item>Imperial</item>
+    </string-array>
+
+    <string-array name="listValues">
+        <item>metric</item>
+        <item>imperial</item>
+        <item>imperial</item>
+    </string-array>
+
+
+</resources>
