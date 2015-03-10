@@ -113,7 +113,6 @@ public class TestDb extends AndroidTestCase {
     */
     public void testLocationTable() {
         insertLocation();
-
     }
 
     /*
@@ -177,6 +176,7 @@ public class TestDb extends AndroidTestCase {
         dbHelper.close();
     }
 
+
     /*
         Students: This is a helper method for the testWeatherTable quiz. You can move your
         code from testLocationTable to here so that you can call this code from both
@@ -234,7 +234,4 @@ public class TestDb extends AndroidTestCase {
         db.close();
         return locationRowId;
     }
-
-
-    
 }

@@ -109,7 +109,7 @@ public class FetchWeatherTask extends AsyncTask<String, Void, Void> {
      * into an Object hierarchy for us.
      */
     private void getWeatherDataFromJson(String forecastJsonStr,
-                                        String locationSetting)
+                                            String locationSetting)
             throws JSONException {
 
         // Now we have a String representing the complete forecast in JSON Format.
